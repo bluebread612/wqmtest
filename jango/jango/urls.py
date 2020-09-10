@@ -17,8 +17,10 @@ from django.contrib import admin
 from django.urls import path
 from app01 import views
 
+# 对应访问网址做路由
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
-    path('stack-example/', views.stack)
+    path('stack-example/', views.stack),
+    path('login/', views.login)
 ]

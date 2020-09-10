@@ -112,6 +112,6 @@ if __name__ == '__main__':
     # file = open(file_path, 'w', encoding='UTF-8')
     # print(json.dumps(data, ensure_ascii=False, indent=1))
     # file.write(json.dumps(data, ensure_ascii=False, indent=1))
-    json_data = search_action("13501854608", 'other', 3)
-    # print(len(json_data))
+    json_data = search_action("1350185460", "other", "3")
+    print(len(json_data))
     print(json_data)
